@@ -1,0 +1,23 @@
+{
+  "name": "mini-crud-auth",
+  "version": "1.0.0",
+  "description": "Full-stack Task Manager with CRUD operations and JWT authentication",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "dev-backend": "cd backend && npm run dev",
+    "clean": "rm -rf backend/node_modules frontend/node_modules backend/database.db"
+  },
+  "keywords": [
+    "rest-api",
+    "crud",
+    "authentication",
+    "express",
+    "react",
+    "jwt",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
